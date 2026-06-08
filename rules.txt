@@ -1,4 +1,5 @@
 RULES_YEAR: 2026
+RULES_PDF: http://www.oregonkickball.com/document/4372/download/OKC-Rules-2026.pdf
 
 OKC Rulebook and Scoresheets
 2026 UPDATES:
