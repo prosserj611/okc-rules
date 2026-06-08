@@ -6,130 +6,121 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="OKC Rules">
-<meta name="theme-color" content="#0a3d2e">
+<meta name="theme-color" content="#1a1008">
 <title>OKC Rules Assistant</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root {
-  --green-dark: #0a3d2e;
-  --green-mid: #1D9E75;
-  --green-light: #5DCAA5;
-  --green-pale: #E1F5EE;
-  --amber: #EF9F27;
-  --amber-pale: #FAEEDA;
-  --red: #E24B4A;
-  --surface: #f5f7f5;
+  --okc-dark: #1a1008;
+  --okc-brown: #2e1a08;
+  --okc-red: #b02a1a;
+  --okc-red-light: #d94030;
+  --okc-red-pale: #fdf0ee;
+  --okc-cream: #f5ead8;
+  --okc-tan: #c8a86b;
+  --okc-tan-pale: #faf5ec;
+  --surface: #f7f4f0;
   --card: #ffffff;
-  --text: #0f1f18;
-  --text-muted: #5a7068;
+  --text: #1a1008;
+  --text-muted: #6b5a45;
   --border: rgba(0,0,0,0.09);
   --radius: 14px;
   --radius-sm: 8px;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
 html, body { height: 100%; }
-body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: var(--text); min-height: 100vh; padding-bottom: env(safe-area-inset-bottom); }
+body { font-family: "DM Sans", sans-serif; background: var(--surface); color: var(--text); min-height: 100vh; padding-bottom: env(safe-area-inset-bottom); }
 
-/* SETUP */
-#setup-screen { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem 1.5rem; background: var(--green-dark); }
-.setup-logo { width: 72px; height: 72px; background: var(--green-mid); border-radius: 20px; display: flex; align-items: center; justify-content: center; font-size: 36px; margin-bottom: 1.5rem; box-shadow: 0 8px 32px rgba(29,158,117,0.4); }
-.setup-title { font-size: 24px; font-weight: 600; color: #fff; text-align: center; margin-bottom: 6px; }
-.setup-sub { font-size: 14px; color: rgba(255,255,255,0.6); text-align: center; margin-bottom: 2rem; }
-.setup-card { background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.12); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 380px; }
-.setup-card label { font-size: 13px; font-weight: 500; color: rgba(255,255,255,0.7); display: block; margin-bottom: 8px; margin-top: 16px; }
-.setup-card label:first-child { margin-top: 0; }
-.setup-card input { width: 100%; padding: 12px 14px; font-size: 14px; font-family: 'DM Mono', monospace; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2); border-radius: var(--radius-sm); color: #fff; outline: none; letter-spacing: 0.05em; }
-.setup-card input::placeholder { color: rgba(255,255,255,0.3); }
-.setup-card input:focus { border-color: var(--green-light); }
-.setup-help { font-size: 12px; color: rgba(255,255,255,0.45); margin-top: 10px; line-height: 1.5; }
-.setup-help a { color: var(--green-light); text-decoration: none; }
-.setup-btn { width: 100%; margin-top: 1.25rem; padding: 14px; font-size: 15px; font-weight: 600; font-family: 'DM Sans', sans-serif; background: var(--green-mid); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer; }
-.setup-btn:hover { background: var(--green-light); }
+#setup-screen { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 2rem 1.5rem; background: var(--okc-dark); }
+.setup-logo { width: 90px; height: 90px; border-radius: 20px; overflow: hidden; margin-bottom: 1.25rem; box-shadow: 0 8px 32px rgba(0,0,0,0.5); background: var(--okc-brown); }
+.setup-logo img { width: 100%; height: 100%; object-fit: contain; }
+.setup-title { font-size: 22px; font-weight: 600; color: var(--okc-cream); text-align: center; margin-bottom: 4px; }
+.setup-sub { font-size: 13px; color: var(--okc-tan); text-align: center; margin-bottom: 2rem; }
+.setup-card { background: rgba(255,255,255,0.06); border: 1px solid rgba(200,168,107,0.2); border-radius: var(--radius); padding: 1.5rem; width: 100%; max-width: 380px; }
+.setup-card label { font-size: 13px; font-weight: 500; color: var(--okc-tan); display: block; margin-bottom: 8px; }
+.setup-card input { width: 100%; padding: 12px 14px; font-size: 14px; font-family: "DM Mono", monospace; background: rgba(255,255,255,0.08); border: 1px solid rgba(200,168,107,0.25); border-radius: var(--radius-sm); color: var(--okc-cream); outline: none; letter-spacing: 0.04em; }
+.setup-card input::placeholder { color: rgba(200,168,107,0.35); }
+.setup-card input:focus { border-color: var(--okc-tan); }
+.setup-help { font-size: 12px; color: rgba(200,168,107,0.6); margin-top: 8px; line-height: 1.5; }
+.setup-help a { color: var(--okc-tan); text-decoration: none; }
+.setup-btn { width: 100%; margin-top: 1.25rem; padding: 14px; font-size: 15px; font-weight: 600; font-family: "DM Sans", sans-serif; background: var(--okc-red); color: #fff; border: none; border-radius: var(--radius-sm); cursor: pointer; }
+.setup-btn:hover { background: var(--okc-red-light); }
 
-/* SETTINGS SCREEN */
 #settings-screen { min-height: 100vh; display: none; flex-direction: column; background: var(--surface); }
-.settings-header { background: var(--green-dark); padding: 14px 16px; padding-top: calc(14px + env(safe-area-inset-top)); display: flex; align-items: center; gap: 12px; }
-.settings-back { width: 32px; height: 32px; background: rgba(255,255,255,0.1); border: none; border-radius: 8px; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-.settings-header-title { font-size: 15px; font-weight: 600; color: #fff; }
+.settings-header { background: var(--okc-dark); padding: 14px 16px; padding-top: calc(14px + env(safe-area-inset-top)); display: flex; align-items: center; gap: 12px; }
+.settings-back { width: 32px; height: 32px; background: rgba(255,255,255,0.1); border: none; border-radius: 8px; color: var(--okc-cream); font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.settings-header-title { font-size: 15px; font-weight: 600; color: var(--okc-cream); }
 .settings-body { padding: 1.5rem 1rem; }
 .settings-section-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 8px; margin-top: 20px; }
 .settings-section-label:first-child { margin-top: 0; }
 .settings-field { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; margin-bottom: 4px; }
 .settings-field label { font-size: 12px; font-weight: 500; color: var(--text-muted); display: block; margin-bottom: 6px; }
-.settings-field input { width: 100%; padding: 8px 10px; font-size: 13px; font-family: 'DM Mono', monospace; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); outline: none; }
-.settings-field input:focus { border-color: var(--green-mid); }
+.settings-field input { width: 100%; padding: 8px 10px; font-size: 13px; font-family: "DM Mono", monospace; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); outline: none; }
+.settings-field input:focus { border-color: var(--okc-red); }
 .settings-field .field-help { font-size: 11px; color: var(--text-muted); margin-top: 6px; line-height: 1.4; }
-.settings-save-btn { width: 100%; margin-top: 1.5rem; padding: 14px; font-size: 15px; font-weight: 600; font-family: 'DM Sans', sans-serif; background: var(--green-dark); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; }
-.settings-save-btn:hover { background: var(--green-mid); }
-.settings-status { margin-top: 10px; font-size: 13px; color: var(--green-mid); text-align: center; min-height: 20px; }
+.settings-save-btn { width: 100%; margin-top: 1.5rem; padding: 14px; font-size: 15px; font-weight: 600; font-family: "DM Sans", sans-serif; background: var(--okc-dark); color: var(--okc-cream); border: none; border-radius: var(--radius); cursor: pointer; }
+.settings-save-btn:hover { background: var(--okc-red); }
+.settings-status { margin-top: 10px; font-size: 13px; color: var(--okc-red); text-align: center; min-height: 20px; }
 
-/* MAIN APP */
 #main-app { display: none; flex-direction: column; min-height: 100vh; }
-.topbar { background: var(--green-dark); padding: 14px 16px; padding-top: calc(14px + env(safe-area-inset-top)); display: flex; align-items: center; gap: 12px; position: sticky; top: 0; z-index: 10; }
-.topbar-icon { width: 36px; height: 36px; background: var(--green-mid); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+.topbar { background: var(--okc-dark); padding: 14px 16px; padding-top: calc(14px + env(safe-area-inset-top)); display: flex; align-items: center; gap: 10px; position: sticky; top: 0; z-index: 10; border-bottom: 1px solid rgba(200,168,107,0.15); }
+.topbar-logo { width: 36px; height: 36px; border-radius: 8px; overflow: hidden; flex-shrink: 0; background: var(--okc-brown); }
+.topbar-logo img { width: 100%; height: 100%; object-fit: contain; }
 .topbar-text { flex: 1; }
-.topbar-title { font-size: 15px; font-weight: 600; color: #fff; }
-.topbar-sub { font-size: 11px; color: rgba(255,255,255,0.5); }
+.topbar-title { font-size: 15px; font-weight: 600; color: var(--okc-cream); }
+.topbar-sub { font-size: 11px; color: var(--okc-tan); }
 .topbar-actions { display: flex; gap: 6px; }
-.topbar-btn { width: 32px; height: 32px; background: rgba(255,255,255,0.1); border: none; border-radius: 8px; color: rgba(255,255,255,0.8); font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.topbar-btn { width: 32px; height: 32px; background: rgba(255,255,255,0.08); border: 1px solid rgba(200,168,107,0.15); border-radius: 8px; color: var(--okc-tan); font-size: 15px; cursor: pointer; display: flex; align-items: center; justify-content: center; text-decoration: none; }
 
-/* STALE RULES BANNER */
-#stale-banner { display: none; background: var(--amber-pale); border-bottom: 1px solid #EF9F27; padding: 10px 14px; font-size: 13px; color: #633806; line-height: 1.5; position: relative; }
-#stale-banner a { color: #854F0B; font-weight: 600; }
-#stale-dismiss { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; font-size: 16px; cursor: pointer; color: #854F0B; padding: 4px; }
+#stale-banner { display: none; background: #fef3cd; border-bottom: 2px solid #f0a500; padding: 10px 40px 10px 14px; font-size: 13px; color: #5a3e00; line-height: 1.6; position: relative; }
+#stale-banner ul { margin: 4px 0 0 16px; }
+#stale-banner li { margin-bottom: 2px; }
+#stale-banner a { color: #7a5200; font-weight: 600; text-decoration: underline; }
+#stale-dismiss { position: absolute; right: 12px; top: 10px; background: none; border: none; font-size: 16px; cursor: pointer; color: #7a5200; padding: 4px; }
 
-/* RULES LOADING BANNER */
-#rules-status { display: none; background: var(--green-pale); border-bottom: 1px solid var(--green-light); padding: 8px 14px; font-size: 12px; color: #0a3d2e; }
+#rules-status { display: none; background: var(--okc-tan-pale); border-bottom: 1px solid rgba(200,168,107,0.4); padding: 8px 14px; font-size: 12px; color: var(--okc-brown); }
 
 .tab-bar { background: var(--card); border-bottom: 1px solid var(--border); display: flex; padding: 0 4px; }
-.tab-btn { flex: 1; padding: 12px 4px 10px; font-size: 11px; font-weight: 500; font-family: 'DM Sans', sans-serif; color: var(--text-muted); background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.tab-btn { flex: 1; padding: 12px 4px 10px; font-size: 11px; font-weight: 500; font-family: "DM Sans", sans-serif; color: var(--text-muted); background: none; border: none; border-bottom: 2px solid transparent; cursor: pointer; display: flex; flex-direction: column; align-items: center; gap: 3px; }
 .tab-btn .tab-icon { font-size: 18px; }
-.tab-btn.active { color: var(--green-mid); border-bottom-color: var(--green-mid); }
+.tab-btn.active { color: var(--okc-red); border-bottom-color: var(--okc-red); }
 
 .content { flex: 1; overflow-y: auto; padding: 1rem; }
 .panel { display: none; }
 .panel.active { display: block; }
 
-/* ASK */
 .section-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-muted); margin-bottom: 10px; margin-top: 4px; }
 .ask-input-wrap { position: relative; margin-bottom: 10px; }
-.ask-input-wrap textarea { width: 100%; padding: 14px 48px 14px 14px; font-size: 15px; font-family: 'DM Sans', sans-serif; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); resize: none; outline: none; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
-.ask-input-wrap textarea:focus { border-color: var(--green-mid); }
-.send-btn { position: absolute; right: 10px; bottom: 10px; width: 36px; height: 36px; background: var(--green-mid); border: none; border-radius: 10px; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
-.send-btn:disabled { background: #ccc; cursor: not-allowed; }
+.ask-input-wrap textarea { width: 100%; padding: 14px 48px 14px 14px; font-size: 15px; font-family: "DM Sans", sans-serif; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); color: var(--text); resize: none; outline: none; line-height: 1.5; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
+.ask-input-wrap textarea:focus { border-color: var(--okc-red); }
+.send-btn { position: absolute; right: 10px; bottom: 10px; width: 36px; height: 36px; background: var(--okc-red); border: none; border-radius: 10px; color: #fff; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
 
-/* QUICK */
 .quick-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; }
 .quick-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 12px; cursor: pointer; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 1px 4px rgba(0,0,0,0.05); transition: transform 0.1s; }
 .quick-card:active { transform: scale(0.97); }
-.quick-card-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; background: var(--green-pale); }
+.quick-card-icon { width: 32px; height: 32px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 16px; background: var(--okc-red-pale); }
 .quick-card-label { font-size: 13px; font-weight: 500; color: var(--text); line-height: 1.3; }
 
-/* SITUATION */
 .sit-card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem; margin-bottom: 10px; box-shadow: 0 1px 4px rgba(0,0,0,0.05); }
 .sit-card label { font-size: 12px; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; display: block; margin-bottom: 8px; }
-.sit-card select { width: 100%; padding: 10px 12px; font-size: 14px; font-family: 'DM Sans', sans-serif; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); outline: none; }
-.call-btn { width: 100%; padding: 15px; font-size: 15px; font-weight: 600; font-family: 'DM Sans', sans-serif; background: var(--green-dark); color: #fff; border: none; border-radius: var(--radius); cursor: pointer; margin-top: 4px; }
+.sit-card select { width: 100%; padding: 10px 12px; font-size: 14px; font-family: "DM Sans", sans-serif; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text); outline: none; }
+.call-btn { width: 100%; padding: 15px; font-size: 15px; font-weight: 600; font-family: "DM Sans", sans-serif; background: var(--okc-dark); color: var(--okc-cream); border: none; border-radius: var(--radius); cursor: pointer; margin-top: 4px; }
 .call-btn:active { opacity: 0.85; }
 
-/* ANSWER */
 .answer-wrap { margin-top: 12px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.05); animation: fadeUp 0.2s ease; }
 @keyframes fadeUp { from { opacity:0; transform: translateY(8px); } to { opacity:1; transform: translateY(0); } }
-.answer-header { background: var(--green-dark); padding: 10px 14px; display: flex; align-items: center; gap: 8px; }
-.answer-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green-light); }
-.answer-dot.loading { animation: pulse 1.2s infinite; }
-@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
-.answer-label { font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.7); }
+.answer-header { background: var(--okc-dark); padding: 10px 14px; display: flex; align-items: center; gap: 8px; }
+.answer-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--okc-tan); }
+.answer-label { font-size: 12px; font-weight: 500; color: rgba(245,234,216,0.7); }
 .answer-body { padding: 14px; }
 .answer-text { font-size: 15px; line-height: 1.7; color: var(--text); }
-.rule-quote { margin-top: 12px; padding: 12px; background: var(--green-pale); border-left: 3px solid var(--green-mid); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
-.rule-quote-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--green-mid); margin-bottom: 5px; }
-.rule-quote-text { font-size: 13px; font-family: 'DM Mono', monospace; color: #0a3d2e; line-height: 1.6; }
+.rule-quote { margin-top: 12px; padding: 12px; background: var(--okc-tan-pale); border-left: 3px solid var(--okc-tan); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; }
+.rule-quote-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--okc-brown); margin-bottom: 5px; }
+.rule-quote-text { font-size: 13px; font-family: "DM Mono", monospace; color: var(--okc-brown); line-height: 1.6; }
 .not-found-wrap { margin-top: 12px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; font-size: 14px; color: var(--text-muted); line-height: 1.5; }
 .not-found-wrap strong { color: var(--text); }
-
 .loading-wrap { margin-top: 12px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 14px; display: flex; align-items: center; gap: 12px; }
-.spinner { width: 18px; height: 18px; border: 2px solid var(--green-pale); border-top-color: var(--green-mid); border-radius: 50%; animation: spin 0.7s linear infinite; flex-shrink: 0; }
+.spinner { width: 18px; height: 18px; border: 2px solid var(--okc-tan-pale); border-top-color: var(--okc-red); border-radius: 50%; animation: spin 0.7s linear infinite; flex-shrink: 0; }
 @keyframes spin { to { transform: rotate(360deg); } }
 .loading-text { font-size: 14px; color: var(--text-muted); }
 .error-wrap { margin-top: 12px; background: #fff5f5; border: 1px solid #fecaca; border-radius: var(--radius); padding: 14px; font-size: 14px; color: #991b1b; line-height: 1.5; }
@@ -138,28 +129,23 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
 </head>
 <body>
 
-<!-- SETUP SCREEN -->
+<!-- SETUP -->
 <div id="setup-screen">
-  <div class="setup-logo">⚽</div>
+  <div class="setup-logo"><img src="data:image/png;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCABkAJYDASIAAhEBAxEB/8QAHQAAAQQDAQEAAAAAAAAAAAAABwAFBggBAgQJA//EAEIQAAEDAwIDBQUFBgQFBQAAAAECAwQFBhEABxIhMQgTFEFRIjJhcYEVUmKRoRYXI0KisUNyktEkJTNEU1Rkc4LB/8QAGwEBAAEFAQAAAAAAAAAAAAAAAAECAwQFBwb/xAAfEQEAAwACAgMBAAAAAAAAAAAAAQIDBBEFMRMhImH/2gAMAwEAAhEDEQA/ALl6WlrGgWlrGsOe5oM+evlNdYYjqdkuoaaQCpSlHAAHmdQTdXcuhWBAaTKLsypylcEKmxhxyJCvQJ8hqse8G4K5BMjdarPrWRxxrMo7xQlAPu+LdHP5p0B9uLfq0I9SXR7Vh1S8auk8Jj0ZguJSfxOH2R+Z0P7t3k3EaWo1CqWBt+zgkNVOaqbMx/8AGz0PwOgva7W8u60QU2yaUxadq54SiC34SMB+NwYW4r5nnoqWP2ObeSymZd9zy6lIPNxuGoIRnzBWck6CJVHexK1qM3tBV9w4PE3SLUaS2P8AKtzBx89Nje9dJLmP337mI5+8ujRVp/08Wn2PQ9t4dyVa3aBs8xUZtJnNxH2qrVSJLwJBKmmv5sDmfho4XTtTspblq1Cv1aw6OzEgRVSH1BJKgEpyR73Xy0ARo+9k7iQmldoRh9ZPJq4bX7lH1W1n89Em195tw0Rg/Mtqg3tAA9uZaVRDrgHr4dXtDQ6odk7WXq/b65209YtqDcqlJpcyFP7xKuHPtOJ/kHz1veHZArFIdXVtuLrebkNnLTMlZZcHwDidBYWxN47CvGT9nRKkun1UHC6bUGzHkJV6cKsZ+hOiK3gJAGBnmPjrzquC7Lutqcm3d77PcrLSThqc6juZ7WOimpCeasdRnOjBtjuvWrfpiJ9JrEm/bLZA8QhxOKrSUn/yJ/nQPvc/noLcaQ0wWfctGu6hsVqgz2ZsJ4ApW2rOD5hXoR6HUg8tAtZ1qOus6DOlrGloMaWhheu9dmWrcP7OOuzKnWE+/Dp7BeW3n72NNy9+6Gj3rSvBPzpTh0BfPTQ03n3JbsqDHp1MiqqlyVM93ToDfvFX3lY6JGmCqb3yJkRbVs2FccyWoewuZG8Kyn4qWvVY90NwnqC5U5qq5Gq9+VcFqTKhq42aTH/8LKvJZ8yNB8txL8k2zWJTEGpCu7gVD+HUawgcaYGf+3i9cEdCofTRG7O/ZoblKavDc0GS+8e+ZpzpOTnnxOk8yT6a4uyDtCiLR3t1Ltp6pHdtrepkZ4ZzgElwg9Sccvz1tWKrO3AsKfuPRdwptPuqmSlKNIEkttJSF4Q0G+qiR69dBNO0/Nuay6lQXy407t+4oRX6ZGUYiUrKcJDrqTng8+WOnTXR2WXbxth9+0JtsrlUZ90zmKxFm99HShzmEhSj7QGMcuei8m3Id7WLRI95U5qUooYlPsOghPepT5j5nprqu24bc29tByqVZ6LTqbEa/hspSEAkdEoSPM6AEbzWNJtm+q3uWusQY79ZU3Dp8SPAL84uKbKD3BKkhLpBV7XMDlppRv8AbWXJt8rbi6HLkg9/D+zpEucwku8XJPGtSScEEc8+WiHs5ArG4Fzfvau9hUaN7Tdt01YJEVnoXyPvqHn6aqb2zBbbO+1VbtxngUEo+0k49gS8q48fAjgzoLhbZWReNLrVvyn7rp8+1aXSzFix4IWjv/uOLScpKuH00x7yO3TcG99Es5NyTbZthFPVUJMqJI7l2QpJIKEr+HLl9dVp2G7Rtx7ZwRQ6lCcrVHCgWmnHOFxgH7pPl8NWnsXcXa/f6A5R5NNS5JZQHFQ5ieFY9ShSTkj5aBs2pmUvdqj3VaVxMi6KJSZnhoNSktguPIxjJUAPbGOSh166BG8ezV17I18XnYs2S/Rkq5upHEtgH+RxPRST8eXrq092VCh7N2Syxa9qurafcDMaNDaJSXlDCS4rrgnzOg7szuFWzeFfsu9i5ccqqVIsKhMI71uGkp9sqJ6IBIGgiG0u4TyX3bxsNkMVBsd5cdroX/ClIHvSYw8j5kDpq4e392Ui9bbiXBRZAdjPp908lNq80qHqDqh/aE2+rOyW5ca5bXcfYpT7pegvJHJlXVTSvh/caIO0G4UhFVVc9gmE85PSFVu1XXgyrvsc3o+eWD1xoLpaWg2jfimtpHj7Lu+K+BhTf2YpYB88FPIjWzm/tDSypw2neASlJUVfZS+WNAYjpag+2+5lq7hxZDttVDvHoxAkRnR3brR/Ek89LQVe3cg1Kz61vGKDJehVlyTDrSZbZw8YLqv4qEq6pAWr8kjVdUbnbiJwE3pXRxf+9X/vq5naGpSFb7UdhQ/hXXbNQpDv4lJTxo/qUn8tUy2psqVe24tNtNKiyqS+UPLP+GhPNZ+gGgdaId29xHFQqfJuOvIQcLSH3FoHzOca76Fs5fcK+KVTrhs6tJjuvpLgaYKitAOSAemrVWhaT9425U7e27r6rStWjyl09t6I2DInyEAd444rrw5PLUJoVA3Jg7is7XxN25VVS8S5UvDgqVFYB5krVzCj066A90zcKhwYUehU62a+qVFaDf2aICgtpCRgEk+zjTFaFt7Pybyk1pu3G6PcSFhx2PUAWVpUeYWEKODz8xnTLum1e131CTt7txWTTW6JFQahUXFnvHnSPYZ4uuccydfW/lUXbjZel1HcWC3d9eiNiMlS08Ti1q5lPGOYx66CVb173WltnTimRJaqFXUnMeCysFROOqvujQw2/wBvrv3nrLG4G66lM0ZCu8pdDBIQR5FQ9P1OoleFO21Y2wom59ZsiRRpU2sskR3ZCnVuMJUSo4UckcI6ae97u1VTINDTSNtwHn3WAPGrQUojggYCR5qH6aAv7w7vWptZSW4OW5dU7tKIVKjHKjgYHF91I1Wuz9vYt3XhUNxL8pVbqwmylzn4FLiq7lsHBwtw44uR5hOuW2nmdtLAG6N6MN12+LlV/wAlizk94Wm883VJP6aLVop3AeuKyZ11XlIFWc4qrVaW0hLcSBTktnCVgdFKKkgA+h9NBWjtT1W0a7us7IshhCYDcRlk9y3wJUtI6JHlgEA/EamO39s1Qbc27c1i02si+qZMWXUsw1hp5gqHJasY+Xw19NsaJbjl13tvNcEZs2vSJ77sBhSfYlyFOEoSAeo5/qNS+2q7uRuLaD9w1C5J9JaqEsQrbpNNSGUurCveVgZ7tA6+WgsptleEW+rfUmbDMGrxMM1OmvJw5Hcx6enmDr67dbZ27Yy6hJpMZTkyoSVvPyXvadVxHOOL0+Gqh7pbtS7H7TK6zbswS2YMWPAqSUckyygHjJ+PPr6jVxLH3FtS7bcjVinVeIEPMh1TS3QlbfqCDoG/fmx4d/ba1ahPthUgNF6KvzQ6kZH+2vNa27OvCq1pcKgUSoTJsdxSFdw2rKVA4PMdOmvR+/7uYlQGbftepRH6nVnTHStl0K8O3jLjisdMDPP10AX7sqtdrlwWxZFTXQLMtmC54ybFQkPS3wkgDj8ypZHx0FfK3V94rNq6bfqdXuWnTAkKRFMhziKT0xz56kMeN2hU0YXIuRdzVObIX37jywBzAyQT0yRqyO61Qp+223FvXrV0N1K+TSW6ZTvEIC1d4cqU6QepGevy9dNltOXVBbrNVvq55tQcTZz0qrxnMBiO48SGG0gdFYBJ+Y0D9sJQYkzey+bkS6kCHCh0p95lIS3Jl8CVyF46ZyhBz+I6Wu7sNU8s7ICrTFKU/V6nIlOqV1UQruwfyRpaD79qsJhXBtjcAHtRLoaYUr8DieY/TVS7BuOLtl2lZdTqbZ+z41UlxX+EZKG1qWkkfIHVzO1dSJtb2/pcWlFCKj9vwRDWscg4p0JBP56DjdmbXXXuHcO2rtMk1W7fDyJc6uqPArxXI8KEenPQSK3K3Zu1myF53ZZdwvVlqRLV3BXkIQ+v3UJ+IyM6FfZ2vRe3dt1rcu4aTUahJrkjwrE4gFpC+pKz1xkjp5DWN1bcnRbasnYO2WjPq4WahVu4OQl5fIcX+UdfkNSftcU1vb7Ye0dv4DeUrc431gYC1pTlR+p0DhutcNz2Tt/Q6daExUuuXrNM2TV44yla1Hk2g/IgfIa3avioWPc1M2sjRf2xuSprbdqb9RX3qI768cSUjHLA1JtvLps61ez7aa5649wVqnxVSYMNjDr6HcE5AGeEAdSdB7sw3RQnt0rk3Hu2Vx1I5MKInK3XnHDySgDzA5aAz7xwaWbwpTV3xGa/OUsMW7bcY8KCeXE876J5H6DTDT0MVrd17a+9NvbfXTWY6ZC5lNYKRE9jjHEv9NQPbTcH7f7Udar9zyEUia7CkRqYiceFMV3kG0nPQ8v76I25+6Mu3NsK7HkTKVWromRC1JeozQ7mKlXsBbjnmrnyGdAGpldqO6HaUEujUJ2swqS5w0qnjkwlLPJorPRKOIBR9dT+2LxvCkbuubWX1bsGoSbleS3VZUZwl0tvAgHiHuoQk+70HXUU2sU3ZPZhrl3QrlVQ7kqM3vIfcqSJDzaFBHd4PPhOSrlp+2G3dsG1rJnXTdjPir7LjvE8pClvyU8uD2zyGeY5eQGo7hXGd5juIMHaSTGiVegbEWFFekxaa73sllo5W/IcOQD68IPU6lluXs/aG7Fs2DBpsSpVpHcwH0oOWaayrHE03+PHtKX6kjUW7JlbolS3nufcK8axFhyUsOPteJdAPG4ryz1ITywNSvZ+JS7Sv+7dwq9SqzOrciQ87Q4/gVkvMuEkOhWMAkHByeWpUfxz3xYG2+2+4MudVojl1XFWZqnKPQkKylIUeRd+p057k3Mztv8AZ7N/WDb75qMcu0+NS0ltbDiSP4bhHvDnqHdm66aNcO+dw3/f1TjR5cdpb0VElfuqKsBCAeqgOgGue+bli7j9qumi6nhSKDT3UlCJZ4R3SRxgnPQqPloCzupX4tjbAt3a5QaZR7srUYRY6YrfCWUOdfyT11GuyhaYrFoU6LzRTXJvj6tJV/3b6T/DYHqEn2j8dQnte33HvW+LapcaM/FoEUpDD7yChEgFQSpaR90DlnRouut0qzIS5dIqSah9nUdbdIotIAKWct+3JeI6EHnz0Aj3SvCLf/aiiR1NOVCj28stQoTI4vFOtnISkfiXjJ9NTLcmoMik3DaEqemRWpFOkVy53GTlKO7QEsRR6BOUjH4fjqE9j5mmOwb1uKTWKdSq9hCI0uapJ8MhZJccSD/N1x8QNOe81KtqgbN1C57YjVNmoVB/wDlSmKIcq7KxxOulB5hPEOR0Fl+zXSvs3Yq0I3dd2o0xp1aT5KWOI/30tSyxI7cKzaNFQOFDUBlCfkG06WgGvbCmyaVsjOqkJ4x5MOfDfZcHVK0voIOgVeF+WDTL3Eq+aHVqZdqI7Thq1BkFtM1paAQvHLqOujV24VpR2dq5xKCSp+ME5PU96jpqm9rbjrrsOlWtc9mU+7XmSmLTXXlKRJSCcJb40kEjPLn00BIvfdlG3CELsG0TTZlXaEgVypOeJfkoIwSlXMfMeWmOn76Ua9bfeoG9dMkVhCXu9iToYCHmCRzGPTTxu/Z1duJNNsa0LOnwqPRsvyH0R3XWzKWE8aG1rwShPTkcE89Dt3Ym9mQeGl1M45+1AUR/QVHQES1N8dq7Gls060rCfVSZAU1UZctYVJcbUMEI9OvTUgtC+9jbSlqe22pbS7hnEqblVk8DMQ9cFXPH01XGrbe3NS3yiQ02lR6pcUWFH5JeCCfoNSTbeHFtmjVy4rjtSPVX6eWQzDqbKg2QskE45fnoDLuEjbWYv9sr+29qTcxZCpMqiS0uw31noeJJynJ9dReq7y2PWdvKxYFFsH7OiSS2IHA77S1JVnieV1JHXXLK3H23uS1KxREtVGzn6v3KV902JMRpCD7qUZBSCeZPXUZtjb6mNz/EU6+rXnNlOWw++uI5z5e64kJ/qOrelppTuGVwsqa7VreeoN9Mo7MRlCXj3y0pwAokhHPOE504LaaUjgU22U+nCNSn9h687kxPsyZjlmNVGFgf163c29vBCApymNJQropUxnB/r15y88i1p9uuYaeIzzitLV9IBSnhbF0MV+FS4UqTDWXkxZLfG06n1x6jUoovaa3Oj3GzJnVBqXAU+FOwCykJLZOC2k4yBjlrep2FWlS4z782gw0IcPH4mrx0ngPwCyfXUbcsW2aZVjLrO5NGYDTgWlumsuTF8jkDOEp/XW94s3in6c287nxvnm2E/Q606LtrR5673i2Eql1OQrxDIr8xDUdhZ58SUZKlDPTlqKXRursrPud68KrZkupXSEgKZS6DCcdSMBXxH0023jvDt9Lmvqh2g5csmWGm1u1op7ptSUhJWhscxnHTOhnuHaUkXtORQaOpmDwoVhI4WGuJAVjjVhKevmdZTRChP3k203Hp0ZG6dpyGp0BSkxXqUrgHc+SCPhreB2h7Ztaa3SbKsONGtxxJanCQrjlS2yMHKz05HpoV0Paq7au0Fw43eE8iIzLr/wDU2hSP6tPqNhL4XhX2ZUioesIj+5B/TQEZitbPUC339wbf27qUgKfCI4qcgCMHeuEJ/nCc5zjA1HHrzrW4Fh3/AHbdXCtLLcSBTmgnDUVS3gpSGh0B4U88akzEJz91LkO89t3qlV7SRwtIlJfjtSIXEcupxgFST18yOfloM3zuPJuSnwrep9HgW/b8R4PNQYaSEqWf51qOSo49dB6iUFIFCp6fIRm8f6RpaVAIVQKepJBBjNkEefsjS0AK7dVAuG4doGEUGM7LREqKH5jLQKlKbCVAAAczhRSfpqgtPYrlOqDUmJHnRpcZYW2tLawtCgcgjl1zr15W0CMcyD5Y5flr5Cm0/j4zBjFR6qLQyf00HlDX69f1ee76s1CvzlZKsvKdVjP9tM7dRrsFzi8dUYx+Di069ePBxv8A0zP+kf7abqja9t1AETqBTZWRg97GSr+40HmHRt3twaYgMC45M6N08PUOGS2R6cLgIGiBBuBe4e1Vy02BbVNptQaWw88YTqmm3QCejRJSk/5dW4u7s67R3AhffWqxAeX/AI0FRZV+nLQerPZWum0p7lX2qvRTTvCUmNMHCVp+6VAYUPmNBV3bukQmNyqBCu1pUOnKnt+J79OElORyJPLHrok9pKt3P4d+j1qJTUU+ZVXZdJ7t5CnY8ZGUJQEpPJsg8Qz104XhIu+21ORd0NrVloclT6agoQoeZJAU2fqBqJ8OzldVxGrzKS8odJkRfAkemWVY/TQd92Wq5+5SxBRrbUK5MjTKlLlMtcLhjNnqo+gGT8tN22NKpVT2ev6qzKeZtVpCoK4bq3nAUNuvFDhwD5ADU0iPNG3jQ6XvdDNNVHVHDDs0o4WlApKAFs5SkjqM+emy0LcbtCXKl0DdOgQFSW+7dCamhaHEZzwqSWSD6g406T3Jh3GRR7Y7Q6I9NoURNLiSYhNOWkrbWlTaCpJ4skklStEntXW/BYs16RHQ3CeplWAZ7yG2x3zD6AQ2wUH20I8889QWs25Y71bfrld3SgzJzzneuuJddecWcdfYbT+WRr5TLj2xjPoU25X7nmE+wkt4SV9OSnStQ+g0QGNt0CsVmawIEN5xBcTlxQ4UdeuToybtbnSbZulykUm26Q3UobDLblRlt+LdCgge4F5Sj6DUks+i7z3iAmybIj2jAVjhqE1CkvAeoUv2v9KRog2h2P6Yt9VU3AuebWZrqi4+3GPdoWo+ZWfaJ/LQVIr25V+VwFNSuqqOsnoy2+UNp+AQMAflpkS/XpKgtt+pPn4KWo69ObV2T2utxCFU2zaYXEj/AKr7ferPzKs6msGh0aEjhh0mFHA6BplKR+g0HldEubcSLSX6QxU6+3T5LRadjgud2pB6gp0x063q9U5qIcGkTpD61cKUNsKJz+WvXbwUU8lRWSPigf7a1RBiNK42orLS88yhoZOgj21cKqUrbe3KbXFJVVI1MYalZOfbSgAnS1KEo5c8n/N10tB9dLS0tAtLS0tBggEYI0sD00tLQfN5hlxsodbS4g9UrGQfodQO6NoNsbgUpyrWRRXnXD7bqYwbcP8A9k4P66WloIVU+yxsq84FItqTHKzg91UXwB8gVEa5D2Stmkgq+y6qcc8GouYOlpaB3pXZg2UglLwtJUhYGf8AiJ77gP0K8fpog2vt9Y1tICqDadGpywMcbERCVH5qxk6WloJKhICQf/3W2AeR0tLQbYGlpaWgWlpaWgWlpaWg/9k=" alt="OKC Logo"></div>
   <div class="setup-title">OKC Rules Assistant</div>
-  <div class="setup-sub">2026 Rulebook · Referee tool</div>
+  <div class="setup-sub">2026 Rulebook &middot; Referee Tool</div>
   <div class="setup-card">
     <label>Gemini API Key</label>
     <input type="password" id="setup-api-key" placeholder="AIza..." autocomplete="off" spellcheck="false">
-    <div class="setup-help">Get a free key (no credit card) at <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a>. Your key is stored only on this device.</div>
-    <label>Rules Text URL</label>
-    <input type="url" id="setup-rules-url" value="https://YOUR-USERNAME.github.io/okc-rules/rules.txt" spellcheck="false">
-    <div class="setup-help">URL to the rules.txt file hosted on GitHub Pages (or wherever you host it).</div>
-    <label>Rules PDF URL</label>
-    <input type="url" id="setup-pdf-url" value="http://www.oregonkickball.com/document/4372/download/OKC-Rules-2026.pdf" spellcheck="false">
-    <button class="setup-btn" onclick="saveSetup()">Get Started →</button>
+    <div class="setup-help">Get a free key (no credit card) at <a href="https://aistudio.google.com/app/apikey" target="_blank">aistudio.google.com</a>. Stored only on this device.</div>
+    <button class="setup-btn" onclick="saveSetup()">Get Started &rarr;</button>
   </div>
 </div>
 
-<!-- SETTINGS SCREEN -->
+<!-- SETTINGS -->
 <div id="settings-screen">
   <div class="settings-header">
-    <button class="settings-back" onclick="closeSettings()">←</button>
+    <button class="settings-back" onclick="closeSettings()">&#8592;</button>
     <div class="settings-header-title">Settings</div>
   </div>
   <div class="settings-body">
@@ -167,18 +153,13 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
     <div class="settings-field">
       <label>Gemini API Key</label>
       <input type="password" id="settings-api-key" placeholder="AIza..." autocomplete="off" spellcheck="false">
-      <div class="field-help">Free key from <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--green-mid)">aistudio.google.com</a> — no credit card needed.</div>
+      <div class="field-help">Free key from <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color:var(--okc-red)">aistudio.google.com</a></div>
     </div>
-    <div class="settings-section-label">Rules Sources</div>
+    <div class="settings-section-label">Rules Source (Admin Only)</div>
     <div class="settings-field">
       <label>Rules Text URL (.txt)</label>
       <input type="url" id="settings-rules-url" spellcheck="false">
-      <div class="field-help">URL to rules.txt on GitHub Pages. Update this each season when new rules are published.</div>
-    </div>
-    <div class="settings-field">
-      <label>Rules PDF URL</label>
-      <input type="url" id="settings-pdf-url" spellcheck="false">
-      <div class="field-help">URL to the official PDF rulebook. Opens in browser when refs tap "View PDF".</div>
+      <div class="field-help">The rules year and PDF URL are read from this file automatically. Update this file on GitHub each season — all devices update on next load.</div>
     </div>
     <button class="settings-save-btn" onclick="saveSettings()">Save Settings</button>
     <div class="settings-status" id="settings-status"></div>
@@ -188,115 +169,65 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
 <!-- MAIN APP -->
 <div id="main-app">
   <div class="topbar">
-    <div class="topbar-icon">⚽</div>
+    <div class="topbar-logo"><img src="data:image/png;base64,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" alt="OKC"></div>
     <div class="topbar-text">
       <div class="topbar-title">OKC Rules Assistant</div>
       <div class="topbar-sub" id="rules-year-label">Loading rules...</div>
     </div>
     <div class="topbar-actions">
-      <a id="pdf-btn" href="#" class="topbar-btn" target="_blank" title="View PDF rulebook">📄</a>
-      <button class="topbar-btn" onclick="openSettings()" title="Settings">⚙️</button>
+      <a id="pdf-btn" href="#" class="topbar-btn" target="_blank" title="View PDF rulebook">&#128196;</a>
+      <button class="topbar-btn" onclick="openSettings()" title="Settings">&#9881;</button>
     </div>
   </div>
 
   <div id="stale-banner">
-    ⚠️ These rules are from <span id="stale-year"></span>. The season starts in May — check <a href="http://www.oregonkickball.com" target="_blank">oregonkickball.com</a> for updated rules.
-    <button id="stale-dismiss" onclick="dismissStaleBanner()">✕</button>
+    <strong>&#9888;&#65039; Rules may need updating for 2026</strong>
+    <ul id="stale-issues"></ul>
+    <div style="margin-top:6px">Update the <code>rules.txt</code> file on GitHub or check <a href="http://www.oregonkickball.com" target="_blank">oregonkickball.com</a>.</div>
+    <button id="stale-dismiss" onclick="dismissStaleBanner()">&#10005;</button>
   </div>
 
-  <div id="rules-status">⏳ Loading rulebook...</div>
+  <div id="rules-status">&#8987; Loading rulebook...</div>
 
   <div class="tab-bar">
-    <button class="tab-btn active" onclick="switchTab('ask')" id="tab-ask">
-      <span class="tab-icon">🔍</span> Ask
-    </button>
-    <button class="tab-btn" onclick="switchTab('quick')" id="tab-quick">
-      <span class="tab-icon">⚡</span> Quick
-    </button>
-    <button class="tab-btn" onclick="switchTab('situation')" id="tab-situation">
-      <span class="tab-icon">🏃</span> Situation
-    </button>
+    <button class="tab-btn active" onclick="switchTab('ask')" id="tab-ask"><span class="tab-icon">&#128269;</span> Ask</button>
+    <button class="tab-btn" onclick="switchTab('quick')" id="tab-quick"><span class="tab-icon">&#9889;</span> Quick</button>
+    <button class="tab-btn" onclick="switchTab('situation')" id="tab-situation"><span class="tab-icon">&#127939;</span> Situation</button>
   </div>
 
   <div class="content">
-
-    <!-- ASK PANEL -->
     <div class="panel active" id="panel-ask">
       <div class="section-label">Ask any rule question</div>
       <div class="ask-input-wrap">
         <textarea id="question" rows="3" placeholder="e.g. Can a runner advance on a foul ball?"></textarea>
-        <button class="send-btn" onclick="askRule()">↑</button>
+        <button class="send-btn" onclick="askRule()">&#8593;</button>
       </div>
-      <div class="disclaimer">⚠️ AI answers are for quick reference only. Always defer to the official PDF rulebook for final rulings.</div>
+      <div class="disclaimer">&#9888;&#65039; AI answers are for quick reference only. Always defer to the official PDF for final rulings.</div>
       <div id="ask-answer"></div>
     </div>
 
-    <!-- QUICK PANEL -->
     <div class="panel" id="panel-quick">
       <div class="section-label">Common rule topics</div>
       <div class="quick-grid">
-        <div class="quick-card" onclick="quickAsk('What is an illegal pitch and what happens when one is called?')">
-          <div class="quick-card-icon">🚫</div>
-          <div class="quick-card-label">Illegal pitch</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the exact rules for an overthrow including the 15 foot line?')">
-          <div class="quick-card-icon">➡️</div>
-          <div class="quick-card-label">Overthrows</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What is encroachment and what are the exact penalties for each offense?')">
-          <div class="quick-card-icon">⚠️</div>
-          <div class="quick-card-label">Encroachment</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the yellow card and red card rules and penalties including sitting out and auto outs?')">
-          <div class="quick-card-icon">🟨</div>
-          <div class="quick-card-label">Cards</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What is obstruction and what happens when it is called including card penalties?')">
-          <div class="quick-card-icon">🛑</div>
-          <div class="quick-card-label">Obstruction</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What is a force out and how does it work including when force is removed?')">
-          <div class="quick-card-icon">✋</div>
-          <div class="quick-card-label">Force out</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are all the ways a ball can be called a foul ball?')">
-          <div class="quick-card-icon">⭕</div>
-          <div class="quick-card-label">Foul ball</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the rules for leading off including what happens when it is called?')">
-          <div class="quick-card-icon">🏃</div>
-          <div class="quick-card-label">Leading off</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the sub rules including how many subs are allowed and what are the auto out penalties?')">
-          <div class="quick-card-icon">👤</div>
-          <div class="quick-card-label">Subs</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What is a dead ball situation and what happens to runners?')">
-          <div class="quick-card-icon">✋</div>
-          <div class="quick-card-label">Dead ball</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the exact strike zone rules including bounce requirements?')">
-          <div class="quick-card-icon">🎯</div>
-          <div class="quick-card-label">Strike zone</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the tag up rules after a caught ball including when runners can leave?')">
-          <div class="quick-card-icon">🏷️</div>
-          <div class="quick-card-label">Tag up</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the gender minimum rules and what happens when a team cannot meet them?')">
-          <div class="quick-card-icon">👥</div>
-          <div class="quick-card-label">Gender minimums</div>
-        </div>
-        <div class="quick-card" onclick="quickAsk('What are the forfeit rules including time limits and red card forfeits?')">
-          <div class="quick-card-icon">🏳️</div>
-          <div class="quick-card-label">Forfeit rules</div>
-        </div>
+        <div class="quick-card" onclick="quickAsk('What is an illegal pitch and what happens when one is called?')"><div class="quick-card-icon">&#128683;</div><div class="quick-card-label">Illegal pitch</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the exact rules for an overthrow including the 15 foot line?')"><div class="quick-card-icon">&#8594;</div><div class="quick-card-label">Overthrows</div></div>
+        <div class="quick-card" onclick="quickAsk('What is encroachment and what are the exact penalties for each offense?')"><div class="quick-card-icon">&#9888;</div><div class="quick-card-label">Encroachment</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the yellow card and red card rules and penalties?')"><div class="quick-card-icon">&#129000;</div><div class="quick-card-label">Cards</div></div>
+        <div class="quick-card" onclick="quickAsk('What is obstruction and what happens when it is called?')"><div class="quick-card-icon">&#128721;</div><div class="quick-card-label">Obstruction</div></div>
+        <div class="quick-card" onclick="quickAsk('What is a force out and how does it work including when force is removed?')"><div class="quick-card-icon">&#9995;</div><div class="quick-card-label">Force out</div></div>
+        <div class="quick-card" onclick="quickAsk('What are all the ways a ball can be called a foul ball?')"><div class="quick-card-icon">&#11093;</div><div class="quick-card-label">Foul ball</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the rules for leading off including what happens when called?')"><div class="quick-card-icon">&#127939;</div><div class="quick-card-label">Leading off</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the sub rules including how many are allowed and auto out penalties?')"><div class="quick-card-icon">&#128100;</div><div class="quick-card-label">Subs</div></div>
+        <div class="quick-card" onclick="quickAsk('What is a dead ball situation and what happens to runners?')"><div class="quick-card-icon">&#128075;</div><div class="quick-card-label">Dead ball</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the exact strike zone rules including bounce requirements?')"><div class="quick-card-icon">&#127919;</div><div class="quick-card-label">Strike zone</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the tag up rules after a caught ball?')"><div class="quick-card-icon">&#127991;</div><div class="quick-card-label">Tag up</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the gender minimum rules and penalties?')"><div class="quick-card-icon">&#128101;</div><div class="quick-card-label">Gender minimums</div></div>
+        <div class="quick-card" onclick="quickAsk('What are the forfeit rules including time limits?')"><div class="quick-card-icon">&#127987;</div><div class="quick-card-label">Forfeit rules</div></div>
       </div>
-      <div class="disclaimer" style="margin-top:12px">⚠️ AI answers are for quick reference only. Always defer to the official PDF rulebook for final rulings.</div>
+      <div class="disclaimer" style="margin-top:12px">&#9888;&#65039; AI answers are for quick reference only. Always defer to the official PDF for final rulings.</div>
       <div id="quick-answer"></div>
     </div>
 
-    <!-- SITUATION PANEL -->
     <div class="panel" id="panel-situation">
       <div class="section-label">Build a game situation</div>
       <div class="sit-card">
@@ -324,257 +255,222 @@ body { font-family: 'DM Sans', sans-serif; background: var(--surface); color: va
         <label>What happened?</label>
         <select id="sit-event">
           <option value="the ball was kicked and caught by a fielder in the air before touching the ground">Ball caught in air</option>
-          <option value="the ball was kicked fair on the ground into the field">Fair ball kicked on ground</option>
+          <option value="the ball was kicked fair on the ground into the field">Fair ball on ground</option>
           <option value="the ball was kicked foul">Foul ball</option>
           <option value="an overthrow went past the 15-foot overthrow line into foul territory">Overthrow past line</option>
           <option value="the pitcher gained control of the ball while standing in the pitching mound area">Pitcher controls ball on mound</option>
           <option value="a runner was touched by a thrown ball while not on a base">Runner hit by thrown ball</option>
           <option value="the kicker ran past first base into foul territory and stayed there">Kicker overran 1st base</option>
           <option value="a runner left their base before the kicker made contact with the ball">Runner led off early</option>
-          <option value="a fielder was standing in the baseline without possession of the ball">Fielder blocking baseline (obstruction)</option>
-          <option value="the kicker kicked the ball a second time and the second touch was in fair territory">Ball kicked twice in fair territory</option>
-          <option value="a runner skipped a base while advancing and the defense appealed">Runner missed a base (defense appeals)</option>
-          <option value="the kicker kicked the ball above the knee but below the waist">Ball kicked above knee, below waist</option>
+          <option value="a fielder was standing in the baseline without possession of the ball">Fielder blocking baseline</option>
+          <option value="the kicker kicked the ball a second time and the second touch was in fair territory">Ball kicked twice</option>
+          <option value="a runner skipped a base while advancing and the defense appealed">Runner missed a base</option>
+          <option value="the kicker kicked the ball above the knee but below the waist">Kicked above knee, below waist</option>
         </select>
       </div>
-      <button class="call-btn" onclick="askSituation()">📋 What's the call?</button>
-      <div class="disclaimer" style="margin-top:10px">⚠️ AI answers are for quick reference only. Always defer to the official PDF rulebook for final rulings.</div>
+      <button class="call-btn" onclick="askSituation()">&#128203; What's the call?</button>
+      <div class="disclaimer" style="margin-top:10px">&#9888;&#65039; AI answers are for quick reference only. Always defer to the official PDF for final rulings.</div>
       <div id="sit-answer"></div>
     </div>
-
   </div>
 </div>
 
 <script>
-// ── Storage helpers ──────────────────────────────────────────
-const S = {
-  get: k => localStorage.getItem(k) || '',
-  set: (k, v) => localStorage.setItem(k, v),
-  del: k => localStorage.removeItem(k)
-};
+const HARDCODED_RULES_URL = "https://prosserj611.github.io/okc-rules/rules.txt";
 
-const DEFAULT_PDF_URL = 'http://www.oregonkickball.com/document/4372/download/OKC-Rules-2026.pdf';
-const DEFAULT_RULES_URL = 'https://YOUR-USERNAME.github.io/okc-rules/rules.txt';
+const S = { get: k => localStorage.getItem(k)||"", set: (k,v) => localStorage.setItem(k,v) };
 
-let rulesText = '';
+let rulesText = "";
 let rulesYear = null;
+let rulesPdfUrl = "";
 
-// ── Init ─────────────────────────────────────────────────────
-window.addEventListener('DOMContentLoaded', () => {
-  const apiKey = S.get('gemini_api_key');
-  if (!apiKey) {
-    document.getElementById('setup-screen').style.display = 'flex';
+window.addEventListener("DOMContentLoaded", () => {
+  if (!S.get("gemini_api_key")) {
+    document.getElementById("setup-screen").style.display = "flex";
   } else {
     showMainApp();
   }
-
-  document.getElementById('question').addEventListener('keydown', e => {
-    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); askRule(); }
+  document.getElementById("question").addEventListener("keydown", e => {
+    if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); askRule(); }
   });
 });
 
 function showMainApp() {
-  document.getElementById('setup-screen').style.display = 'none';
-  document.getElementById('settings-screen').style.display = 'none';
-  document.getElementById('main-app').style.display = 'flex';
-
-  const pdfUrl = S.get('pdf_url') || DEFAULT_PDF_URL;
-  document.getElementById('pdf-btn').href = pdfUrl;
-
+  document.getElementById("setup-screen").style.display = "none";
+  document.getElementById("settings-screen").style.display = "none";
+  document.getElementById("main-app").style.display = "flex";
   loadRules();
 }
 
-// ── Setup ────────────────────────────────────────────────────
 function saveSetup() {
-  const key = document.getElementById('setup-api-key').value.trim();
-  const rulesUrl = document.getElementById('setup-rules-url').value.trim();
-  const pdfUrl = document.getElementById('setup-pdf-url').value.trim();
-  if (!key) { alert('Please enter your Gemini API key.'); return; }
-  S.set('gemini_api_key', key);
-  if (rulesUrl) S.set('rules_url', rulesUrl);
-  if (pdfUrl) S.set('pdf_url', pdfUrl);
+  const key = document.getElementById("setup-api-key").value.trim();
+  if (!key) { alert("Please enter your Gemini API key."); return; }
+  S.set("gemini_api_key", key);
   showMainApp();
 }
 
-// ── Settings ─────────────────────────────────────────────────
 function openSettings() {
-  document.getElementById('main-app').style.display = 'none';
-  document.getElementById('settings-screen').style.display = 'flex';
-  document.getElementById('settings-api-key').value = S.get('gemini_api_key');
-  document.getElementById('settings-rules-url').value = S.get('rules_url') || DEFAULT_RULES_URL;
-  document.getElementById('settings-pdf-url').value = S.get('pdf_url') || DEFAULT_PDF_URL;
-  document.getElementById('settings-status').textContent = '';
+  document.getElementById("main-app").style.display = "none";
+  document.getElementById("settings-screen").style.display = "flex";
+  document.getElementById("settings-api-key").value = S.get("gemini_api_key");
+  document.getElementById("settings-rules-url").value = S.get("rules_url") || HARDCODED_RULES_URL;
+  document.getElementById("settings-status").textContent = "";
 }
 
 function closeSettings() {
-  document.getElementById('settings-screen').style.display = 'none';
-  document.getElementById('main-app').style.display = 'flex';
+  document.getElementById("settings-screen").style.display = "none";
+  document.getElementById("main-app").style.display = "flex";
 }
 
 function saveSettings() {
-  const key = document.getElementById('settings-api-key').value.trim();
-  const rulesUrl = document.getElementById('settings-rules-url').value.trim();
-  const pdfUrl = document.getElementById('settings-pdf-url').value.trim();
-  if (!key) { alert('API key cannot be empty.'); return; }
-  S.set('gemini_api_key', key);
-  if (rulesUrl) S.set('rules_url', rulesUrl);
-  if (pdfUrl) { S.set('pdf_url', pdfUrl); document.getElementById('pdf-btn').href = pdfUrl; }
-  document.getElementById('settings-status').textContent = '✓ Settings saved';
-  rulesText = '';
-  rulesYear = null;
+  const key = document.getElementById("settings-api-key").value.trim();
+  const rulesUrl = document.getElementById("settings-rules-url").value.trim();
+  if (!key) { alert("API key cannot be empty."); return; }
+  S.set("gemini_api_key", key);
+  if (rulesUrl) S.set("rules_url", rulesUrl);
+  document.getElementById("settings-status").textContent = "Settings saved";
+  rulesText = ""; rulesYear = null; rulesPdfUrl = "";
   setTimeout(() => { closeSettings(); loadRules(); }, 800);
 }
 
-// ── Rules loading ────────────────────────────────────────────
 async function loadRules() {
-  const rulesUrl = S.get('rules_url') || DEFAULT_RULES_URL;
-  const statusEl = document.getElementById('rules-status');
-  const yearLabel = document.getElementById('rules-year-label');
-
-  if (rulesUrl.includes('YOUR-USERNAME')) {
-    yearLabel.textContent = 'Rules URL not configured';
-    statusEl.style.display = 'block';
-    statusEl.textContent = '⚙️ Please set the Rules Text URL in Settings before using the app.';
-    return;
-  }
-
-  statusEl.style.display = 'block';
-  statusEl.textContent = '⏳ Loading rulebook...';
-
+  const rulesUrl = S.get("rules_url") || HARDCODED_RULES_URL;
+  const statusEl = document.getElementById("rules-status");
+  const yearLabel = document.getElementById("rules-year-label");
+  statusEl.style.display = "block";
+  statusEl.textContent = "Loading rulebook...";
   try {
-    const resp = await fetch(rulesUrl + '?t=' + Date.now());
-    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const resp = await fetch(rulesUrl + "?t=" + Date.now());
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
     const text = await resp.text();
 
     const yearMatch = text.match(/RULES_YEAR:\s*(\d{4})/);
+    const pdfMatch = text.match(/RULES_PDF:\s*(.+)/);
     rulesYear = yearMatch ? parseInt(yearMatch[1]) : null;
+    rulesPdfUrl = pdfMatch ? pdfMatch[1].trim() : "";
     rulesText = text;
 
-    statusEl.style.display = 'none';
-    yearLabel.textContent = rulesYear ? '20' + String(rulesYear).slice(2) + ' Rulebook' : 'Rulebook loaded';
+    // Set PDF button
+    if (rulesPdfUrl) document.getElementById("pdf-btn").href = rulesPdfUrl;
 
+    statusEl.style.display = "none";
+    yearLabel.textContent = rulesYear ? rulesYear + " Rulebook" : "Rulebook loaded";
     checkStaleness();
   } catch(e) {
-    statusEl.textContent = '⚠️ Could not load rules. Check the Rules URL in Settings or your connection.';
-    yearLabel.textContent = 'Rules unavailable';
+    statusEl.textContent = "Could not load rules. Check your connection or Settings.";
+    yearLabel.textContent = "Rules unavailable";
   }
 }
 
 function checkStaleness() {
-  if (!rulesYear) return;
   const now = new Date();
   const currentYear = now.getFullYear();
-  const afterApril = now.getMonth() >= 3; // April = index 3
-  const dismissed = S.get('banner_dismissed_' + rulesYear);
+  const afterApril = now.getMonth() >= 3;
+  if (!afterApril) return;
 
-  if (currentYear > rulesYear && afterApril && !dismissed) {
-    document.getElementById('stale-year').textContent = rulesYear;
-    document.getElementById('stale-banner').style.display = 'block';
+  const dismissed = S.get("banner_dismissed_" + currentYear);
+  if (dismissed) return;
+
+  const issues = [];
+
+  // Check 1: rules year
+  if (!rulesYear || rulesYear < currentYear) {
+    issues.push("Rules text is still from " + (rulesYear || "an unknown year") + " — RULES_YEAR in rules.txt needs updating");
+  }
+
+  // Check 2: PDF URL contains old year
+  if (rulesPdfUrl && rulesPdfUrl.includes(String(currentYear - 1))) {
+    issues.push("PDF link may still point to " + (currentYear - 1) + " rules — RULES_PDF in rules.txt needs updating");
+  } else if (!rulesPdfUrl) {
+    issues.push("No PDF URL found in rules.txt — RULES_PDF line may be missing");
+  }
+
+  if (issues.length > 0) {
+    const ul = document.getElementById("stale-issues");
+    ul.innerHTML = issues.map(i => "<li>" + i + "</li>").join("");
+    document.getElementById("stale-banner").style.display = "block";
   }
 }
 
 function dismissStaleBanner() {
-  document.getElementById('stale-banner').style.display = 'none';
-  if (rulesYear) S.set('banner_dismissed_' + rulesYear, '1');
+  document.getElementById("stale-banner").style.display = "none";
+  S.set("banner_dismissed_" + new Date().getFullYear(), "1");
 }
 
-// ── Tab switching ────────────────────────────────────────────
 function switchTab(tab) {
-  ['ask','quick','situation'].forEach(t => {
-    document.getElementById('tab-' + t).classList.toggle('active', t === tab);
-    document.getElementById('panel-' + t).classList.toggle('active', t === tab);
+  ["ask","quick","situation"].forEach(t => {
+    document.getElementById("tab-"+t).classList.toggle("active", t===tab);
+    document.getElementById("panel-"+t).classList.toggle("active", t===tab);
   });
 }
 
-// ── Gemini API call ──────────────────────────────────────────
 async function callGemini(question, answerId) {
   if (!rulesText) {
-    document.getElementById(answerId).innerHTML = '<div class="error-wrap">⚠️ Rulebook not loaded yet. Check your Rules URL in Settings or wait for it to load.</div>';
+    document.getElementById(answerId).innerHTML = '<div class="error-wrap">Rulebook not loaded yet. Please wait or check Settings.</div>';
     return;
   }
-
-  const apiKey = S.get('gemini_api_key');
+  const apiKey = S.get("gemini_api_key");
   document.getElementById(answerId).innerHTML = '<div class="loading-wrap"><div class="spinner"></div><div class="loading-text">Looking up rule...</div></div>';
 
-  const systemPrompt = `You are a strict referee assistant for the Oregon Kickball Club (OKC). You ONLY answer questions using the exact text of the OKC rulebook provided below.
-
-STRICT RULES FOR YOUR RESPONSES:
-1. Only answer based on text that explicitly exists in the rulebook. Do NOT infer, extrapolate, or use general kickball knowledge.
-2. If the answer is not explicitly stated in the rulebook, respond with exactly: NOT_IN_RULES: [brief explanation of what you could not find]
-3. When you do answer, quote the EXACT verbatim text from the rulebook that supports your answer. Use the format: QUOTE: [exact text from rulebook]
-4. Be concise — referees need fast, clear answers during a game.
-5. Never guess or fill in gaps with assumptions.
-
-RULEBOOK TEXT:
-${rulesText}`;
+  const prompt = "You are a strict referee assistant for the Oregon Kickball Club (OKC). You ONLY answer using the exact text of the OKC rulebook below.\n\nSTRICT RULES:\n1. Only answer based on text explicitly in the rulebook. Do NOT infer or use general kickball knowledge.\n2. If the answer is not explicitly stated, respond with exactly: NOT_IN_RULES: [brief explanation]\n3. Always end with the EXACT verbatim quote from the rulebook on a new line using this format: QUOTE: [exact text]\n4. Be concise. Referees need fast clear answers during a game.\n5. Never guess or fill gaps with assumptions.\n\nRULEBOOK:\n" + rulesText + "\n\nQuestion: " + question;
 
   try {
-    const resp = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=' + apiKey, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
+    const resp = await fetch("https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=" + apiKey, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        contents: [{ parts: [{ text: systemPrompt + '\n\nQuestion: ' + question }] }],
+        contents: [{ parts: [{ text: prompt }] }],
         generationConfig: { maxOutputTokens: 700, temperature: 0.0, topP: 0.1 }
       })
     });
-
     const data = await resp.json();
     if (data.error) {
-      document.getElementById(answerId).innerHTML = '<div class="error-wrap">⚠️ API error: ' + data.error.message + '<br>Check your API key in Settings.</div>';
+      document.getElementById(answerId).innerHTML = '<div class="error-wrap">API error: ' + data.error.message + '<br>Check your API key in Settings.</div>';
+      return;
+    }
+    const full = (data.candidates?.[0]?.content?.parts?.[0]?.text || "").trim();
+    if (!full) { document.getElementById(answerId).innerHTML = '<div class="error-wrap">No response. Try again.</div>'; return; }
+
+    if (full.startsWith("NOT_IN_RULES:")) {
+      const reason = full.replace("NOT_IN_RULES:", "").trim();
+      document.getElementById(answerId).innerHTML = '<div class="not-found-wrap"><strong>Not found in rulebook</strong><br>' + reason + '<br><br>Tap &#128196; above to check the full PDF.</div>';
       return;
     }
 
-    const full = (data.candidates?.[0]?.content?.parts?.[0]?.text || '').trim();
-    if (!full) {
-      document.getElementById(answerId).innerHTML = '<div class="error-wrap">⚠️ No response received. Try again.</div>';
-      return;
-    }
-
-    // Handle NOT_IN_RULES response
-    if (full.startsWith('NOT_IN_RULES:')) {
-      const reason = full.replace('NOT_IN_RULES:', '').trim();
-      document.getElementById(answerId).innerHTML = '<div class="not-found-wrap"><strong>Not found in rulebook</strong><br>' + reason + '<br><br>Tap 📄 above to check the full PDF.</div>';
-      return;
-    }
-
-    // Parse answer and quote
     const quoteSplit = full.split(/\nQUOTE:/i);
     const answer = quoteSplit[0].trim();
     const quote = quoteSplit[1] ? quoteSplit[1].trim() : null;
-
     document.getElementById(answerId).innerHTML =
       '<div class="answer-wrap">' +
         '<div class="answer-header"><div class="answer-dot"></div><div class="answer-label">Rule answer</div></div>' +
         '<div class="answer-body">' +
-          '<div class="answer-text">' + answer.replace(/\n/g, '<br>') + '</div>' +
-          (quote ? '<div class="rule-quote"><div class="rule-quote-label">Rulebook — exact text</div><div class="rule-quote-text">' + quote + '</div></div>' : '') +
-        '</div>' +
-      '</div>';
-
+          '<div class="answer-text">' + answer.replace(/\n/g,"<br>") + "</div>" +
+          (quote ? '<div class="rule-quote"><div class="rule-quote-label">Rulebook — exact text</div><div class="rule-quote-text">' + quote + "</div></div>" : "") +
+        "</div>" +
+      "</div>";
   } catch(e) {
-    document.getElementById(answerId).innerHTML = '<div class="error-wrap">⚠️ Could not reach Gemini API. Check your internet connection.</div>';
+    document.getElementById(answerId).innerHTML = '<div class="error-wrap">Could not reach Gemini API. Check your connection.</div>';
   }
 }
 
-// ── Ask handlers ─────────────────────────────────────────────
 function askRule() {
-  const q = document.getElementById('question').value.trim();
+  const q = document.getElementById("question").value.trim();
   if (!q) return;
-  callGemini(q, 'ask-answer');
+  callGemini(q, "ask-answer");
 }
 
 function quickAsk(q) {
-  switchTab('quick');
-  document.getElementById('quick-answer').innerHTML = '';
-  setTimeout(() => callGemini(q, 'quick-answer'), 50);
+  switchTab("quick");
+  document.getElementById("quick-answer").innerHTML = "";
+  setTimeout(() => callGemini(q, "quick-answer"), 50);
 }
 
 function askSituation() {
-  const runners = document.getElementById('sit-runners').value;
-  const event = document.getElementById('sit-event').value;
-  const outs = document.getElementById('sit-outs').value;
-  const q = 'Game situation: ' + outs + ', ' + runners + '. What is the correct call and what happens to all runners when: ' + event + '? Is anyone out? Can anyone advance?';
-  callGemini(q, 'sit-answer');
+  const runners = document.getElementById("sit-runners").value;
+  const event = document.getElementById("sit-event").value;
+  const outs = document.getElementById("sit-outs").value;
+  const q = "Game situation: " + outs + ", " + runners + ". What is the correct call and what happens to all runners when: " + event + "? Is anyone out? Can anyone advance?";
+  callGemini(q, "sit-answer");
 }
 </script>
 </body>
