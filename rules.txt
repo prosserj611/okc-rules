@@ -1,0 +1,534 @@
+RULES_YEAR: 2026
+
+OKC Rulebook and Scoresheets
+2026 UPDATES:
+Adds Card Tracking Sec. 3, sub: “Warnings Yellow and Red Cards” & Sec. 3,
+sub: “Obstruction
+Removes False Pitch Sec. 4, sub: “False Pitch”& Sec. 4, sub: “Ball”
+Modifies Overthrow Sec. 4, sub: “Overthrows”
+Clarify Obstruction Sec. 4, sub: “Obstruction”
+Clarify Illegal Pitch Sec. 3, sub: “Illegal Pitch”
+Increase Overthrow Line to 15ft. Sec. 2, sub: “Overthrow Line” & Sec. 4, sub
+"Overthrow"
+Clarify Skipped Kicker Sec. 3, sub: “The Kicker”
+Clarify Adding Players to Lineup Sec. 4, sub: “Playing the Game”
+Clarify Runners Touching Runners is Allowed Sec. 3, sub: “The Runner”
+Section 1: Objectives of the Game
+● Kickball is a game between two teams of at least 8 players each, played on a
+field in accordance with these rules, under the jurisdiction of one or more
+referees.
+● The objective of each team is to win by scoring more runs than their opponent.
+● The winner of the game shall be the team which shall have scored, in
+accordance with these rules, the greater number of runs at the conclusion of a
+regulation game.
+● The ball shall be a 10-inch, red playground ball. The Oregon Kickball Club (OKC)
+is responsible for providing bases, balls, pitching strips and cones.
+● A maximum of 10 players from one team may be on the field at any given point.
+(Minimum of 3 of each gender. Nonbinary players may fill either gender role)
+● All players are expected to demonstrate good sportsmanship and to treat other
+players and referees with courtesy and respect.
+The league will make all efforts to have a complete schedule by two weeks before the
+first games. All games MUST be played on the date scheduled barring severe weather
+or other catastrophic events.
+- In the event of scheduling conflicts that may affect entire teams, opposing
+captains can decide to accept a forfeit for the scheduled game, or reschedule
+based on the guidelines set forth below:
+- Any teams wishing to jointly reschedule a game may do so with the approval of
+the board.
+- The teams must find two qualified referees willing to ref the game at the time
+agreed upon by both captains.
+- Since the game will most likely take place outside of a sanctioned and permitted
+OKC event, TEAMS ARE RESPONSIBLE FOR ALCOHOL PERMITS (if
+necessary) and will not hold the league liable for any fines incurred for violation of
+Portland Parks policies.
+Section 2: Game Preliminaries
+Setting up the Field
+A Base is one of four points which must be touched by a runner in order to score a run;
+more usually applied to the bags or rubber plates which mark the base points. Bases
+shall be set up 55 feet apart (to the back of the base) in a diamond shape with right
+angles.
+Home Plate consists of two plates set up side-by-side. The two plates are considered to
+be one base, with full use by both the offense and defense.
+1st base is the first base encountered counterclockwise around the diamond. It consists
+of two bases side-by-side, one extending onto the field of play from the foul line, the
+other extending into foul territory from the foul line. The left base- the one on the playing
+field- is considered usable by both the offense and the defense. The right base is
+considered a “safety base” and only to be used by the offense. For the purposes of
+safety, if there is a chance of a play at first base, the kicker should run through the
+safety base to avoid a collision.
+2nd and 3rd are placed around the diamond counterclockwise from 1st; 2nd and 3rd
+base each consist of just a single base, respectively.
+The Foul Line is the invisible line that extends from home plate through the middle of
+the double first base. Another foul line extends from home plate to the outside edge of
+3rd base. Three cones shall be placed along each foul line as they proceed past their
+respective base in 10-foot intervals to make them more apparent to the referees. Foul
+Territory is that part of the playing field outside the first and third base lines extended to
+the cones or natural barrier determining the back limit of the outfield and perpendicularly
+upwards.
+The Overthrow line is an invisible line running parallel to the foul line. Its distance is 15
+feet away and into foul territory, extending infinitely. (For more information see
+Overthrows in the fourth section of the rules.)
+The Overthrow cone is the first cone placed beyond both 1st and 3rd base, placed 15 feet
+beyond either base respectively along the foul line.
+The Encroachment Line is the imaginary line that runs from 1st to 3rd base.
+The Pitching Area is a ten-foot diameter extending from the center of the pitching strip.
+The Pitching Strip is defined by two cones placed about 10 feet apart in the center of
+the diamond on the encroachment line.
+The Catcher’s Box is a square marked out by four cones around home plate. The
+dimensions are ten feet by ten feet. The top and the bottom of the square should be
+parallel with the top edge of home plate, with home plate being in the middle of the top
+of the square.
+Required Footwear- Players may not wear shoes with any metal on or in them
+whatsoever. If there is a question, the shoes will not be permitted if the ref determines
+that the metal can be dangerous to a player. This includes steel toe boots. Additionally,
+all shoes must be closed toed and players must wear shoes. If a player is unclear as to
+whether his footwear is legal they are encouraged to consult with the referee before the
+game.
+A player may not be registered on two teams.
+Drinking alcohol and/or smoking are not allowed on school grounds. Further, players or
+their guests shall not engage in illegal activity while participating or viewing OKC games
+and shall abide by the terms of the field permits.
+The Home Team fields first. The home team shall be designated by mutual agreement
+(coin flip, RoShamBo) before the start of the game by the head referee and one
+representative from each team.
+Section Three: Roles
+Defense: Pitcher, Catcher and Fielder
+Pitcher: The pitcher is the defensive player who delivers the ball to the kicker. The
+pitcher must have both of their feet behind the encroachment line and must have at
+least one foot planted inside of the Pitching Strip as viewed from home plate. If the
+pitcher fails to do both of these two things an Illegal Pitch can be called by either ref.
+Illegal Pitch: Occurs when either of two things occur:
+-The pitcher steps across the encroachment line while in the motion of delivering a pitch
+-The pitcher releases a pitch without at least one foot between the pitching cones
+No kicker contact is required for an illegal pitch to be called. When an illegal pitch
+occurs, the ref will silently raise their hand and wait until the end of the play to make the
+call. The result of an illegal pitch is always 'ball’, or the result of the play as decided by
+the offense. If an Illegal Pitch and Encroachment occur on the same play, the penalty for
+Encroachment will supersede the penalty for the Illegal Pitch (see Encroachment,
+below)
+Catcher: The catcher is the only defensive player allowed to line up in foul territory, and
+in front of the encroachment line. The catcher must remain at least an arm’s length
+away from, and behind or to the side of, the kicker until the moment the ball is kicked, or
+Encroachment will be called, provided the kicker lines up in the catcher’s box. If the
+catcher lines up to the side of the kicker they still must remain behind the back plane of
+the kicker’s body. Should the kicker line up behind the catcher’s box, the catcher may
+line up at the back line of the catcher’s box, but still needs to be positioned so that they
+do not impede the kicker’s path to the pitched ball. As well, if the catcher does not pass
+through both the front set and the back set of cones in the catcher’s box, and only if they
+are the first fielder to touch the ball in fair territory, they will be called for encroachment,
+and regular encroachment rules apply.
+At no time may the catcher interfere with the kicker in the area between home plate and
+the backstop or cones before the ball is kicked. After the ball is kicked the standard
+obstruction and interference rules apply. Only one catcher may play for a team at a
+time. If the defense only has 8 players, they can choose to not have a catcher.
+Fielder: All other defensive players in the field may position themselves however they
+wish in fair territory, provided that they start and stay behind the imaginary line between
+1st base and 3rd base until the ball is kicked. Failure to do so results in an Encroachment
+call.
+Encroachment: If any defensive player is called for encroachment, the referee will
+raise their hand silently. Encroachment shall only be called at the conclusion of the play.
+Encroachment shall only be called if the kicker makes contact with the ball.
+(Excluding when the ball hits the kicker above the waist, resulting in either a strike or a
+ball). First offense: kicker given choice of result of the play or a ball. All following
+offenses: kicker given choice of result of the play or first base. The kicker must contact
+the ball for an encroachment violation to take place. Encroachment calls are issued and
+aggregated to entire teams, not individual players.
+Exception:
+If a Kicker makes a backwards or sideways movement, that the ref deems intentional
+to initiate contact in an attempt to draw a Catcher Encroachment call, the Kicker will
+be given a single warning for Catcher Inducement, and the Fielding Team may opt to
+be awarded a strike in the count or the result of the play. If that same Kicker repeats
+the Catcher Inducement violation, that Kicker shall be called out.
+Offense: Kicker, Runner, Pinch Runner, Base Coaches, Subs and The Official
+Scoresheets
+The Kicker: When a player’s name is next in the kicking order, they become the kicker
+and step up to the plate to kick. Each player of the offensive team shall kick in the order
+that their name appears in their team's kicking order. The kicking order shall be followed
+throughout the game. If a player kicks out of turn, then the skipped player shall be out,
+and the lineup resumed with the next proper kicker. If multiple kickers are skipped, an
+out shall be recorded for each such skipped kicker. Any kicker who kicked out of order
+and reaches base, will be removed from base. The first kicker in each inning after the
+first inning shall be the player whose name follows that of the last player who legally
+completed their time kicking in the preceding inning. A kicker has legally completed their
+time kicking when they are put out or becomes a runner. The kicker becomes a runner
+when they kick a fair ball. While the kicker does not need to start in the catcher’s box,
+they may only kick the ball while they currently have part of their plant foot in the box or
+their last point of contact with the ground was legally in the box. Also, any part of the
+kicker’s plant foot must not cross the front of the catcher’s box. Failure to either of these
+will result in a foul ball if the kicker makes contact with the ball.
+When the kicker is running towards 1st base they may run through that base, and as
+long as they stay in foul territory they are protected and may return to first base. 1st is
+the only base the runner may overrun. If a kicker kicks a ball that is fair but contacts a
+foreign object or a player from another game in the outfield, the result is a dead ball –
+ground rule double. If the kicker is past 2nd at the time contact with an object is made
+they get the base they are pursuing.
+The Runner: A runner acquires the right to an unoccupied base when they touch it
+before they are out. They are then entitled to it until they are put out or forced to vacate
+it for another runner legally entitled to that base.
+In terms of 1st base, the kicker should run through only the base in foul territory. If they
+are attempting a multi-base kick, they may round 1st using the base in fair territory. The
+defensive team may only make outs using the base in fair territory. If the runner uses the
+base in fair territory, they are considered to be pursuing 2nd and may be tagged out even
+if they immediately move into foul territory.
+A runner may not leave their base until the ball is kicked by the kicker. If a runner is
+ruled to have left base early, the runner will be ruled out for Leading Off. They will be
+called out and the ref will immediately call a dead ball.
+The runner may also not leave their base before first touch on a catch. If they leave
+early in this case, they need to Tag Up- return to touch the base from which they began
+or they will risk being called out. However, it is the responsibility of the defense to
+appeal for such an out by, after the play has been called dead, bringing the ball to the
+base that the runner supposedly left early and asking for the out. At that time the referee
+will then make a ruling as to whether the runner left the base early or not. Although the
+out is recorded during a dead ball situation, if the referee rules the runner left early and
+is out on appeal, runs resulting from the play do not count if the out was the third of the
+inning.
+Two runners may not occupy a base, but if two runners are touching a base, the
+following runner shall be out when tagged. The lead runner is entitled to the base.
+However, if two runners are occupying a base in a force-out situation where the lead
+runner is required to leave the base, the lead runner shall be out if tagged.
+Runners are allowed to touch each other in the base path, but they cannot pass each
+other. A runner who passes the preceding runner is out.
+A runner may not advance when the pitcher has control of the ball in the pitcher’s
+mound area and is not actively making a play. When the pitcher so ends the play, the
+ball is dead, and the runner(s) must go to the base that they are nearest to (unless
+occupied) at the time the play is ended. This does not apply to any runner who has not
+yet reached their force base, as any runner has the right to attempt the base to which
+they are forced even if the pitcher controls the ball on the mound.
+Each runner including the kicker may, without liability to be put out, advance to home
+base, scoring a run, if a fair ball goes out of the playing field in flight and they touched all
+bases legally. If a runner fails to make contact with a base and proceeds to any later
+base, they may be called out. It is the defense’s responsibility, in that case, to bring the
+ball to that base in appeal. If the referee agrees that the runner did not touch that base,
+then they will be called out.
+Runners may slide head-first or feet-first into a base or home plate but must consider
+the safety of others while sliding. Runners who engage in a dangerous slide, including
+but not limited to attempting to “break-up” the play by means of the slide or sliding with
+raised cleats, shall be ruled out. In addition, as dangerous slides are considered
+unsportsmanlike conduct, the offending runner may also be subject to a yellow or red
+card, at the discretion of the referee.
+A Pinch Runner can only be used for a runner who is already on base, and only in the
+instance that an injury necessitates the need for a replacement runner. The pinch runner
+must be the last available player of the same gender in the lineup.
+The offensive team may station two Base Coaches in foul territory during its turn
+kicking, one near first base and one near third base. The coach cannot interfere with the
+play in any manner. If the base coach intentionally interferes with the play, the coach
+shall receive a card, be prohibited from acting as base coach for the remainder of the
+game, and the ref may issue a do-over or require players to return to appropriate bases.
+Subs - If a team is short players, they may borrow from other teams’ players in good
+standing, up to the minimum required to avoid forfeit [i.e., 3 males and 3 females]. If a
+team's minimum gender requirements are met but the team still has less than 9 players,
+a team may add up to 4 subs so that it may field a team of up to 9 players, but no more.
+Short-handed teams will incur an automatic out if they use two subs. Teams using three
+subs will incur two automatic outs. Teams using four subs (the maximum allowed) will
+incur three automatic outs. If a team is incurring multiple automatic outs, the remaining
+out(s) will roll over to the next inning if the initial out(s) ends the inning. There is no
+penalty for one sub. If a player on the team arrives who is on the team using the sub,
+and this player is the same gender as the sub they take the place of the sub in the field
+(once the half inning is over) and in the lineup with the sub no longer being able to play.
+Penalties for outs will be reduced accordingly. Subs must be placed at the end of the
+lineup. If any players of the opposite gender arrive after the game starts, they shall be
+placed after the sub in the lineup. During each rotation through the lineup, a team is
+required to take the automatic Penalty Out(s) at the end of their lineup. The captain is
+responsible for reporting the name of the player the out will be taken after to the referee
+and is also responsible for taking the out at the correct time. If a team is using 3 or more
+subs, then the opposing captain may file a complaint with the ref. The Ref will have the
+final decision on whether that 3rd and/or 4th sub be allowed to play.
+Gender Minimums - A team unable to fill the gender requirement (three men and three
+women, maximum six men or six women (Nonbinary players may fill either role)) may be
+forced to forfeit by the opposing captain. There are no maximums or minimums for
+non-binary players. If the opposing captain chooses to allow the offending team to play,
+that team is forced to play with the minimums in the field of the complete gender and
+take an out or out(s) at the end of their lineup as penalty. A team with less than three
+women available will be forced to play with only four men in the field and vice-versa
+along with any non-binary players on the team.
+Example (A): Team A has only two (2) women available for the game and are unable to
+find subs. Team B chooses to allow play to go on. Team A must play with only four (4)
+men in the field along with their two (2) women and take an out at the end of their
+lineup.
+Example (B): Team A has only two (2) women available for the game and one (1)
+nonbinary player and are unable to find subs. Team B chooses to allow play to go on.
+Team A must play with only four (4) men in the field along with their two (2) women and
+one (1) non-binary player and take an out at the end of their lineup.
+Changed penalty for not meeting gender minimum to allow teams to play with 9
+players as long as both captains agree prior the start of the game. Both teams will be
+required to sign each other’s scoresheets as evidence of the agreement. Teams will
+still be required to take an out at the bottom of their respective kicking lineups for
+each person short, but that penalty can also be waived if the opposing captains
+choose.
+i.e. If a team has three of any gender they would take 0 outs. Two of any gender they
+would take 1 out. One of any gender they would take 2 outs.
+Standings and Tiebreakers - During the regular season teams are ranked from highest to
+lowest by the ranking points they have accumulated throughout the season.
+Ranking points are awarded using the following criteria:
+● 3 points for a game win or game win by forfeit
+● 1 point for a game draw
+● 0 point for a game loss or loss by forfeit
+When teams are tied with one another in ranking points, tiebreakers will be used to
+determine a team's standings.
+Tiebreakers used, and in what order they are applied, are as follows:
+1. Head to Head
+2. Points Against
+3. Power Index
+Weighted Games Rankings - At the end of the regular season, four groups of four teams
+each will be formed based on the season standings. These four groups will be the teams
+ranked #1-4, #5-8, #9-12 and #13-16. While the three weighted games are being played,
+teams can only move up or down within their group. For example, a team finishing the
+regular season ranked #6 will play the #5, #7, and #8 teams in the weighted games but
+cannot jump into the #4 seed nor fall to the #9 seed for the tournament regardless of the
+weighted games outcome. (Note: In the 2022 season the standings reset to zero going into the
+weighted games, that is no longer the case.)
+Tournament Subs - Only players that have participated in 8 games are eligible for
+tournament play (exceptions may be approved by the board). All teams have a roster of
+21 players and all players wishing to play in the tournament must be in good standing
+with the league and listed on an appropriate roster. Rosters will lock with seven games
+remaining in the season.
+Exceptions will only be made for extreme cases and by the vote of the board so captains
+are required to plan accordingly. If a captain believes that a player will miss the tournament,
+the replacement must be listed on their roster.
+Tournament subs can only be added to reach gender minimums, or a 9 player roster, all other
+regular season sub rules apply.
+The Official Scoresheet- Each team is responsible for keeping truthful and accurate
+scores for their game. Score sheets will be provided by the league at the beginning of
+the season, and instruction will be provided by request so that every team will be able to
+accurately fill out a score sheet to properly reflect score, outs, innings, cards, and home
+runs. The captain will be responsible for showing the score sheet to the ref at the
+beginning of the game if requested. In addition, upon the completion of the game the
+completed score sheets will need to be submitted physically or electronically to either ref
+coordinator in a timely manner by the ref. Captains still need to submit scoresheets, but
+in a reasonable timeframe.
+The Referee
+OKC will schedule a team, which will select two people to referee each game: a Home
+Plate Ref and a Field Ref
+Captains must present subs pregame and announce themselves as the captain for the
+game. They can also present another player as the “acting captain” for that game, this
+will be the player that can ‘talk to the ref’ and would take place in all ref discussions.
+Only the captain of a team may question the Referee.
+Players are encouraged to get rule clarification from the Referee when play is dead
+(preferably between innings).
+The decisions of the referees are final. However, in the event that the player knows that
+the referees’ call was incorrect in their favor (i.e., the ball grazed the runner between
+bases, but the referees didn’t realize it and called the runner safe), players are expected
+to correct the referees’ mistake.
+A Do-Over may be called only by the referees in the instance that they disagree on a
+call or feel as though there is sufficient ambiguity about what the right call should be. In
+a do-over situation all runners shall return to the base they were at, and the pitch count
+returns to what it was prior to the do-over.
+During the end of season tournament, the winning team of the first round game between
+the 8 and 9 seeds chooses which bracket they will continue into (Championship or
+Chumpionship).
+Warnings, Yellow and Red Cards
+Referees and OKC Board Members have the authority and expectation to issue
+warnings, yellow, or red cards to players or spectators for unsportsmanlike or dangerous
+behavior. If necessary, it's ok to proceed directly to yellow and/or red card if the behavior
+justifies it.
+Referees shall stop the game for all red and yellow card infractions.
+Red and Yellow cards may be issued without warning or previous citation.
+Any yellow or red cards issued in a game should be noted on the score sheet after the game
+so the cards can be documented by the OKC Board. The OKC Board will reach out to the
+carded player, captains, and refs from the game where the card was given for information
+gathering purposes.
+Levels of Penalties
+● Warning: No penalty, but if behavior is repeated, result should be red or yellow
+card issuance
+● Yellow Card: Offending player shall sit a full inning- the remainder of the current
+half inning and the next half inning. The team may not replace the player
+defensively or offensively during the sitting inning. The offending player’s team
+will take an out during the next offensive inning they are to play. Defensively, the
+offending player’s team can play with no more than 9 players in the field. If the
+yellow card is issued to an offensive player during the last offensive half inning of
+a game, that player’s team will take an additional out immediately and will not
+have to serve any additional offensive penalties should the game go into extra
+innings. Furthermore, if the yellow card is issued to a defensive player during the
+last defensive half inning of a game, that player’s team will play with only 8
+players in the field for the remainder of the inning and will not have to serve any
+additional defensive penalties should the game go into extra innings.
+● Red Card: Immediate ejection from the current game and, based upon the
+decision of the OKC board, subsequent games. Players who receive a red card
+may not attend their team’s next match unless given a specific exemption from
+the OKC Board. All Red Card suspensions may be reviewed by the OKC Board,
+who may adjust the terms and duration of suspensions at their discretion.
+If a player receives two yellow cards in the same game, that will result in a red card and
+immediate ejection.
+If a player receives two yellow cards in a single season, all future cards will result in immediate
+red cards. Once a player accumulates two yellow cards within the same season, captains will be
+notified for awareness of the automatic red card situation.
+Cards and Gender Minimums
+If player ineligibility due to card receipt causes a team to become unable to meet
+minimum gender requirements, the team shall play down per Additional Red Card
+Penalties. Meaning they will have to take an out at the end of their lineup.
+Cards and End of Season Tournament
+A player receiving a red card in the last match of the regular season is ejected in that
+game and is ineligible for the first game/round of the end of season tournament; a player
+ejected from the last game of the tournament is not eligible to play in the first game of
+the next season for which the player is registered.
+A player receiving a red card in the end of season tournament will be ineligible for all
+remaining games; their team will be forced to play short during the game in question
+and the next game.
+During the end of season tournament, the team captains competing in the Championship game
+and Chumpionship game must agree on the refs for the game instead of just having them
+assigned by the league. If an agreement cannot be made, then the Board will assign the best
+possible refs for these games.
+Automatic Card Situations
+● Unsportsmanlike Communication with Opponent
+● Any and all negative communication directed toward the opposing team or the
+referee. This may include verbal and non-verbal communication (foul or abusive
+language, arguing, questioning, pointing, flipping the bird, etc.)
+Kicking, throwing or tampering with the ball during an active game. This may include
+kicking or throwing the ball out of play deliberately, popping or purposely modifying the
+ball.
+Section Four: Playing the Game
+A standard game consists of 7 innings of play, but may be shorter due to time, weather,
+or environmental constraints. An inning shall not be started after 55 minutes of play.
+No team may score more than 8 runs in an inning. If a team scores 8 runs, then their
+half of the inning is over. The only exception to this is if it’s the final inning; in the final
+inning teams do not have an 8 run cap.
+All players must play both offense and defense in a game. All players in the kicking
+lineup must play at least one inning in the field on defense, and all defensive players in
+the field must be similarly written in the kicking order and must kick.
+Players arriving late must be added to the bottom of the kicking lineup and can only be
+added before beginning the 4th inning.
+Tie games may stand in regular season play. Play-off games must end in a clear winner and
+will involve more than 7 innings if necessary. In such a situation, after the 7th inning, the
+winner is the team that has the higher score at the end of any additional complete inning. After
+the end of the 7th inning, each team on their offensive half of the inning shall start with the final
+kicker from the previous inning on second base.
+A Called Game is one in which, for any reason, the head referee terminates play. The
+game may be called off early in the case of forfeit or the referee’s discretion (lack of sun,
+inclement weather, etc.). In the case of a called game, 4 innings of play must have been
+completed to count in standings.
+A game may be forfeited to the opposing team when a team fails to produce the
+required number and gender of duly registered players by 5 minutes after the scheduled
+start time or a team falls below the required minimum number/gender requirements due
+to the issue of a red card.
+In the interests of mercy, no team shall be awarded more than a 10-run differential for
+any game for the purposes of rankings, regardless of the final score, (e.g., a team that
+wins by 23 points will be awarded a 10-point run differential).
+Forfeited games will be counted as a 5-0 game, (+5/-5 points)
+At the time set for beginning the game the referee shall call "Play Ball" to indicate the
+beginning of the game, at which time the pitcher shall pitch to the kicker.
+At the beginning of the game, the pitcher shall deliver the pitch to the kicker who may
+elect whether or not to attempt to kick the ball, as they choose. If the kicker does not
+kick the ball, either a strike or a ball will be called.
+Strike: A pitch that either is kicked at by the kicker and is missed; or is not kicked at, if
+any part of the ball passes through any part of the strike zone and it bounces at least
+twice before exiting the strike zone. The kicker is out once he receives two strikes in the
+same appearance at the plate.
+The Strike Zone (see diagram below) is two home plates wide and one foot above each
+plate. If any part of the ball crosses through this area and has bounced at least twice
+before exiting the strike zone, it is a strike. The back of the strike zone is considered to
+be an imaginary line that connects the farthest back tip of the plates, extending to the
+outer most edge on the side of each plate.
+Ball: A pitch that does not bounce on the ground at least twice before passing
+completely through the strike zone, or does not also pass through the strike zone, and is
+not kicked at by the kicker, or is any pitch that does not contact the ground at least once.
+The kicker is awarded first base (a “Walk”) once the ball count advances to three balls.
+If the kicker does kick the ball, either a foul ball, safe, or out shall be called.
+Foul Ball:
+● A kicked ball that settles on foul territory before reaching first or third base.
+● A kicked ball that first falls on foul territory beyond first or third base.
+● A kicked ball that while on or over foul territory, touches the person of a referee or
+player, or any object foreign to the natural ground.
+● A ball kicked above the bend in the knee but below the waist.
+● A ball that’s kicked outside of the catcher’s box.
+● A kick in which the kicker’s plant foot crosses the front of the plate.
+● A ball kicked twice in foul territory.
+● A kicked ball that is fielded when the trailing edge of the ball is less than a foot
+(12 inches) in front of home plate.
+Any ball that touches a kicker above the waist is not considered a foul and should be
+called either a ball or a strike. For the purpose of this rule, “above the waist” includes
+arms, heads, torsos or any portion of the body not the legs or feet regardless of whether
+the body part is elevated above the waist at the time of contact. The kicker is out once
+they foul three times in the same appearance at the plate. A runner may not advance on
+a foul ball, caught or otherwise.
+"Safe" is a declaration by the referee that a runner is entitled to the base for which they
+were trying.
+An Out is one of the three required retirements of an offensive team during its time
+kicking:
+● Any ball kicked by the kicker that is caught except a foul ball that has first
+touched an inanimate object.
+● A runner who fails to tag-up after a fair ball is caught before they, or their base, is
+tagged by a fielder.
+● A runner not touching a base who is touched with the ball, unless hit in the head
+with a ball while standing upright.
+Exception: A kicker runner cannot be tagged out after over-running or over
+sliding 1st base if they remained in foul territory at all times after touching the
+safety base and made no attempt to advance to second.
+● A fielder who is in possession of the ball touching a base to which a runner is
+forced to run.
+● A double-kicked ball where the second touch occurs in fair territory.
+● A runner who passes another runner before the preceding runner is out.
+● A runner who intentionally interferes with a defensive play.
+● A runner who leaves the baseline in order to avoid being touched with the ball.
+● A runner who leads off.
+Leading off is when a runner leaves the base before the kicker makes contact with the
+ball. If a ref sees a runner leading off the ref should call a dead ball and call the runner
+out. If the runner is not the 3rd out the count remains unchanged, and the result of the
+pitch is ignored.
+A Force Out is any runner that is caused to be out before they are safe at a base to
+which they are required to run. This is most commonly by the defense tagging a base
+but can also occur by a runner being tagged while running to a base, provided they are
+forced to run to that base because of the kicked ball. I.E., if a runner is on first base and
+the ball is kicked, they are forced to run to second- if they are tagged going to second
+base it counts as a force out. However, if a following runner is put out on a force play,
+the force is removed, and the runner must be tagged to be put out.
+It is important to note that, for scoring purposes, if the third out occurs before a runner
+crosses home then that runner does not score. Similarly, if the runner does cross home
+plate but the third out occurs by a force out afterwards, then the run also does not score.
+A Catch is the act of a fielder getting secure possession in their hand of a ball in flight
+and firmly holding it. A catch is legal if the ball is finally held by any fielder, even though
+juggled, touched or held by another fielder before it touches the ground. In the case of a
+catch, runners must “Tag Up” (stay in contact with the base they were on when the ball
+was kicked) until the ball is first touched by a defender but may leave their bases the
+instant the first fielder touches the ball.
+Dead Ball: When the pitcher has control of the ball on the pitching mound (within the
+indicated area) the Home Plate Ref shall declare “time” and the play considered over.
+Any base runner that is judged to be more than halfway to the next base at the time the
+pitcher gains control of the ball in the pitcher’s circle may advance to the next base. If
+the runner has failed to get halfway to the next base, the runner must return to the
+previous base. The next base is not automatic and is at the restriction of the runner. IF,
+prior to the “TIME” declaration from the referees, a pitcher that has control of the ball in
+the pitcher’s circle and decides to make a play on a base runner, the play shall not be
+considered dead, and the base runners can advance at their own discretion.
+Overthrow: An overthrow occurs when a defensive player kicks or throws the ball that
+passes the foul line while between home plate and either overthrow cone and then
+travels beyond the overthrow line. A controlled ball possessed by a defender that
+crosses the line, is not considered an overthrow.
+The result of an overthrow is a dead ball and the runner is allowed the base they are
+pursuing. If the runner is returning to the base they had just come from (on a caught
+ball) they get that base, and if they are heading towards a base (including just standing
+still on a base) they get that next base. If a runner has not yet reached a base by the
+time an overthrow is called, runners behind them cannot advance.
+Example: A throw is made to first and is errant, going out of play. At the moment the ball
+goes 15 feet into foul territory the kicker has reached first base but the runner
+that was on first has not yet reached second. Ordinarily the kicker would also be
+able to take second because of the overthrow but because the runner from first
+has not reached second, they cannot advance, so the kicker may not in this
+scenario advance to second.
+If a ball is kicked by the kicker and bounces off a runner, it does not count as an
+overthrow if it goes 15 feet out of play. As long as it has not touched an object out of
+play, the ball is still live.
+If a ball is deflected off a runner during a defensive play on the runner, it is considered
+an overthrow if it goes 15 feet out of play, and is subject to the overthrow rules.
+Intentionally deflecting balls is considered unsportsmanlike.
+Obstruction
+Fielders must not impede the progress of the runner. Fielders must stay out of the
+baseline unless they are actively making a play on a ball kicked by the offensive team.
+Setting up in the base path to receive a thrown or kicked ball from a defensive player is
+obstruction. Any defensive player determined to have illegally impeded progress of the
+runner shall be called for Obstruction and will receive a warning. Each subsequent
+infraction for Obstruction will be penalized with a yellow card for the offending player. If
+the referee rules that a fielder obstructed a base, the runner shall be awarded any base
+they would have attained. An example of this would be if a runner is obstructed at
+second base, but then is called out on a close play at home, the runner may be awarded
+home because if they had not been obstructed at second, it could be assumed that they
+would have easily gotten home. The ref shall have discretion to award any additional
+base that the ref believes the runner would have (not could have) been able to reach but
+for the obstruction.
+Interference is an act by the kicking team that intentionally interferes with, obstructs,
+impedes, or hinders any fielder attempting to make a play, either during a live play or
+after the kicker/runner has been declared out. If the referee declares interference, all
+other runners shall return to the last base that was, in the judgment of the referee,
+legally touched at the time of the interference, and the offending player shall be called
+out (and if the offending player was already out, the ref may call other outs as
+warranted). Interference that is considered to be intentional may also warrant a yellow
+or red card, at the discretion of the referee.
