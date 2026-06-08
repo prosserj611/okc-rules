@@ -420,7 +420,7 @@ async function callGemini(question, answerId) {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
         contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: { maxOutputTokens: 1500, temperature: 0.0, topP: 0.1 }
+        generationConfig: { maxOutputTokens: 3000, temperature: 0.1 }
       })
     });
     const data = await resp.json();
